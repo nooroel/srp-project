@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Nooroel: Verdomme man!
+=======
+merijn blablabla
+>>>>>>> origin/master
 =======
 Franjo BLABLABLALBLABLB MERIJN IS PIEMOL
 >>>>>>> origin/master
