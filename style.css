@@ -1,9 +1,17 @@
 body{
 	height: 200px;
 	width: 200px;
+}
 
+<<<<<<< HEAD
 }
 
 .franjo{
 	color: yellow;
 }
+=======
+header{
+	height: 200px;
+	width: none
+}footer{display: none;}
+>>>>>>> origin/master
