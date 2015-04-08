@@ -15,7 +15,11 @@ EN NU? Franjo
 >>>>>>> origin/master
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Franjo aanpassing 15.18
 =======
 LELIJK
+>>>>>>> origin/master
+=======
+LELIJK franjo is dik
 >>>>>>> origin/master
