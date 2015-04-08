@@ -8,4 +8,8 @@ merijn blablabla
 Franjo BLABLABLALBLABLB MERIJN IS PIEMOL
 >>>>>>> origin/master
 
+<<<<<<< HEAD
 Nooroel: Lange jan
+=======
+EN NU? Franjo
+>>>>>>> origin/master
