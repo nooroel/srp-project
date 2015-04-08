@@ -14,4 +14,8 @@ Nooroel: Lange jan
 EN NU? Franjo
 >>>>>>> origin/master
 
+<<<<<<< HEAD
 Franjo aanpassing 15.18
+=======
+LELIJK
+>>>>>>> origin/master
