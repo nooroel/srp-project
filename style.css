@@ -1,0 +1,18 @@
+body{
+	height: 200px;
+	width: 200px;
+}
+
+.merijn{
+	mooi:#ja;
+}
+
+.franjo{
+	color: yellow;
+	content: "ik heb nieuw plaatje, en nu?";
+}
+
+header{
+	height: 200px;
+	width: none
+}footer{display: none;}
