@@ -3,15 +3,17 @@ body{
 	width: 200px;
 }
 
-<<<<<<< HEAD
+.merijn{
+	mooi:#ja;
+}
 }
 
 .franjo{
 	color: yellow;
 }
-=======
+
 header{
 	height: 200px;
 	width: none
 }footer{display: none;}
->>>>>>> origin/master
+
