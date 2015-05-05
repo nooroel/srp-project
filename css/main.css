@@ -24,6 +24,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 #div1{
+    position: relative;
     min-height: 100%;
     width: 100%;
     background-color: #ffcc00;
@@ -43,12 +44,14 @@ header{
 }
 
 header img{
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 40px;
+    height: 30%;
 }
 
 header p{
     float: right;
-    margin: 50px 20px 20px 20px;
+    margin: 34px 40px 20px 20px;
+    font-size: 0.8em;
 }
 
 #intro{
@@ -61,14 +64,15 @@ header p{
 }
 
 #intro p{
-    line-height: 55px;
+    line-height: 2.5em;
+    font-size: 1em;
 }
 
 #intro h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #fff;
-    font-size: 40px; 
+    font-size: 1.8em; 
     padding-bottom: 20px;
 }
 
@@ -77,13 +81,13 @@ h1.welkeberoepsrol{
     font-weight: 300;
     color: #000;
     text-align: center;
-    font-size: 40px; 
-    line-height: 60px;
-    
+    font-size: 2em;
+    line-height: 100px;
 }
 
 #intro img{
     margin-top: 20px;
+    width: 30%;
 }
 
 #introcontainer{
@@ -122,11 +126,9 @@ h1.welkeberoepsrol{
 }
 
 .btn p{
-    
     height: 220px;
     margin-top: 120px;
-    
-    
+    font-size: 0.9em;
 }
 
 .btneven{
