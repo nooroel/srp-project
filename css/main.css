@@ -24,11 +24,15 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 #div1{
+    min-height: 100%;
+    width: 100%;
+    background-color: #ffcc00;
+}
+
+#div2{
     height: 100%;
     width: 100%;
     background-color: #ffcc00;
-
-    
 }
 
 header{
@@ -49,12 +53,15 @@ header p{
 
 #intro{
     max-width: 900px;
-
     margin: auto;
     font-size: 20px;
     padding: 40px 40px 40px 40px;
-
     z-index: 10;
+
+}
+
+#intro p{
+    line-height: 55px;
 }
 
 #intro h1{
@@ -62,15 +69,28 @@ header p{
     font-weight: 300;
     color: #fff;
     font-size: 40px; 
+    padding-bottom: 20px;
+}
+
+h1.welkeberoepsrol{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    font-size: 40px; 
+    line-height: 60px;
+    
+}
+
+#intro img{
+    margin-top: 20px;
 }
 
 #introcontainer{
-    top: 30%;
+    top: 20%;
     width: 100%;
-
     position: absolute;
-    
-    z-index: 10;
+        z-index: 10;
 }
 
 #cmdtotem{
@@ -82,6 +102,39 @@ header p{
     opacity: 0.1;
     left: 60%;
     z-index: 1;
+}
+
+.btn{
+    height: 50%;
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #000;
+    text-decoration: none;
+    font-size: 40px; 
+    padding-bottom: 20px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn p{
+    
+    height: 220px;
+    margin-top: 120px;
+    
+    
+}
+
+.btneven{
+    background-color: #ffcc00;
+}
+
+.btnodd{
+    background-color: #ffdc52;
 }
 
 /*
