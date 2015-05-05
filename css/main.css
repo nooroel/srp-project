@@ -21,17 +21,66 @@ html {
 body{
     height: 100%;
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 #div1{
     height: 100%;
     width: 100%;
     background-color: #ffcc00;
+
+    
 }
 
 header{
     height: 140px;
     width: 100%;
     position: absolute;
+    z-index: 1;
+}
+
+header img{
+    margin: 20px 20px 20px 20px;
+}
+
+header p{
+    float: right;
+    margin: 50px 20px 20px 20px;
+}
+
+#intro{
+    max-width: 900px;
+
+    margin: auto;
+    font-size: 20px;
+    padding: 40px 40px 40px 40px;
+
+    z-index: 10;
+}
+
+#intro h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 40px; 
+}
+
+#introcontainer{
+    top: 30%;
+    width: 100%;
+
+    position: absolute;
+    
+    z-index: 10;
+}
+
+#cmdtotem{
+    width: 300px;
+    height: 100%;
+    background-image: url('../img/totem.png');
+    background-repeat: repeat-y;  
+    position: absolute;
+    opacity: 0.1;
+    left: 60%;
     z-index: 1;
 }
 
