@@ -150,19 +150,11 @@ h1.welkeberoepsrol{
     line-height: 2em;
 }
 
-/* ICONS BIJ TITELS  */
-span.cm{
-    background: url(../img/iconContentManager.png) no-repeat;
-    background-size: 90%;
-    display: inline-block;
-    width: 87px;
-    height: 53px;
-    position: absolute;
-    right: 428px;
-    top: 56px;
+
+.cmimg{
+    width: 100px;
+    padding-right: 50px;
 }
-/* /ICONS BIJ TITELS */
-/* /PAGINA'S */
 
 #cmdtotem{
     width: 300px;
