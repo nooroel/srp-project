@@ -167,6 +167,10 @@ h1.welkeberoepsrol{
     z-index: 1;
 }
 
+.homebtn{
+	float: left;
+}
+
 .btn{
     height: 50%;
     width: 50%;
