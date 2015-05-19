@@ -171,6 +171,14 @@ h1.welkeberoepsrol{
 	float: left;
 }
 
+.cmdlogo{
+	height: 50px;
+}
+
+.logo{
+	float: right;
+}
+
 .btn{
     height: 50%;
     width: 50%;
