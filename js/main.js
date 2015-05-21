@@ -1,14 +1,10 @@
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
+$('a[href^=#]').click(function(){
+    event.preventDefault();
+    var target = $(this).attr('href');
+    if (target == '#')
+      $('html, body').animate({scrollTop : 0}, 600);
+    else
+      $('html, body').animate({
+        scrollTop: $(target).offset().top
+    }, 600);
 });
