@@ -122,14 +122,16 @@ h1.welkeberoepsrol{
 .submenu{
     float: left;
     width: 30%;
-    margin: 2% 0 0;
+    margin-top: 50px;
+    margin-left: 40px;
+    max-width: 250px;
 }
     .submenu ul{
         margin-left: 40px;
         padding-left: 20px;
-        /*list-style-type: none;
+        list-style-type: none;
         padding: 0px;
-        margin: 0px;*/
+        margin: 0px;
     }
         .submenu ul li{
             line-height: 3em;
