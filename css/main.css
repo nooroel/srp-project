@@ -99,6 +99,12 @@ h1.welkeberoepsrol{
         z-index: 10;
 }
 
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* PAGINA'S */
 .contentpage header{
     background: #fff;
@@ -253,6 +259,34 @@ h1.welkeberoepsrol{
 
 .btnodd{
     background-color: #ffdc52;
+}
+
+/* SLICK */
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    padding: 0;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background: transparent;
+    background: #ffcc00;
 }
 
 /*
