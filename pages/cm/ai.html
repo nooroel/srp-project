@@ -33,8 +33,8 @@
         <div class="title">
            
                         <ul id="dropdownmn">
-                            <li class="selecteditem dropdownitem">Content Manager</li>
-                            <li class="dropdownitem">Content Manager</li>
+                            <li class="selecteditem ">Content Manager</li>
+                            <li class="dropdownitem">Visual Designer</li>
                             <li class="dropdownitem">Content Manager</li>
                          </ul>
         </div>
@@ -96,6 +96,12 @@
   adaptiveHeight: true
 });
     });
+
+    $( ".selecteditem" ).click(function() {
+  $( ".dropdownitem" ).toggle( 200, function() {
+    // Animation complete.
+  });
+});
   </script>
       
     </body>

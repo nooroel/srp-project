@@ -133,8 +133,8 @@ ul#dropdownmn{
     padding: 0;
     list-style: none;
     width: 400px;
-    border: 1px #000 solid;
     background: #ffcc00;
+    margin-top: 30px;
     text-align: left;
     left: 50%;
     margin-left: -200px;
@@ -150,14 +150,20 @@ ul li.dropdownitem{
     display: none;
     line-height: 70px;
     border:none;
-    margin: 0 0 0 0;
+    margin: 0 0 0 20px;
     width: auto;
     border-radius: 0;
     -webkit-appearance: none; 
 }
 
 
-.selecteditem {
+ul li.selecteditem {
+     font-size: 2.1em;
+     font-weight: 300;
+    color: #fff;
+    height: 70px;
+    padding: 0  0 0 20px;
+    line-height: 70px;
  display: block;
  outline: none;
   background: url("../img/arrow.jpg") no-repeat right #ffcc00;
