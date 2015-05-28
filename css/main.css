@@ -174,31 +174,44 @@ ul li.selecteditem {
 
 .submenu{
     float: left;
-    width: 30%;
+    width: 100%;
     margin-top: 50px;
     margin-left: 60px;
     max-width: 250px;
 }
     .submenu ul{
-        margin-left: 40px;
-        padding-left: 20px;
         padding: 0px;
         margin: 0px;
+        list-style: none;    
     }
-        .submenu ul li{
-			height: 24px;
-			margin-top: 20px;
-            list-style-image: url('../img/bulletopen.png');
+    
+       	.imgli{
+        	background: url('../img/bulletopen.png') no-repeat left top;
+        	height: 60px;
+        	padding-left: 40px;
+        	padding-top: 2px;
+        }
+        
+        .imgli.active{
+	        background: url('../img/bulletclosed.png') no-repeat left top;
         }
         
         .submenu ul li a{
-			height: 24px;
-			vertical-align: top;
-			padding-top: 10px;	
 	        text-decoration: none;
 	        color: black;
         }
-        
+
+.menuline{
+	z-index: -1;
+	position: absolute;
+	border-left: 1px solid #ff9959;
+	height: 320px;
+	width: 10px;
+	margin-left: 11px;
+
+}
+
+
 .content{
     float: left;
     width: 60%;
