@@ -188,7 +188,7 @@ ul li.selecteditem {
        	.imgli{
         	background: url('../img/bulletopen.png') no-repeat left top;
         	height: 60px;
-        	padding-left: 40px;
+        	
         	padding-top: 2px;
         }
         
@@ -199,6 +199,7 @@ ul li.selecteditem {
         .submenu ul li a{
 	        text-decoration: none;
 	        color: black;
+            padding-left: 40px;
         }
 
 .menuline{
