@@ -34,8 +34,9 @@
            
                         <ul id="dropdownmn">
                             <li class="selecteditem ">Content Manager</li>
+                            <li class="dropdownitem">Frontend Developer</li>
+                            <li class="dropdownitem">Interaction designer</li>
                             <li class="dropdownitem">Visual Designer</li>
-                            <li class="dropdownitem">Content Manager</li>
                          </ul>
         </div>
         <div class="submenu clearfix">
@@ -98,7 +99,7 @@
     });
 
     $( ".selecteditem" ).click(function() {
-  $( ".dropdownitem" ).toggle( 200, function() {
+  $( ".dropdownitem" ).toggle( 0, function() {
     // Animation complete.
   });
 });

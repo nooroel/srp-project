@@ -132,8 +132,8 @@ ul#dropdownmn{
     margin: 0;
     padding: 0;
     list-style: none;
-    width: 400px;
-    background: #ffcc00;
+    
+
     margin-top: 30px;
     text-align: left;
     left: 50%;
@@ -143,10 +143,11 @@ ul#dropdownmn{
 }
 ul li.dropdownitem{
     font-weight: 300;
-    font-size: 2.1em;
-    color: #fff;
+    font-size: 1.5em;
+    background-color: #fff9ee;
+    color: #000;
     height: 70px;
-    padding: 0  0 0;
+    padding: 0  0 0 20px;
     display: none;
     line-height: 70px;
     border:none;
