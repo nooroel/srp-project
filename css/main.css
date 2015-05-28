@@ -309,7 +309,7 @@ ul li.selecteditem {
     display: block;
 
     width: 35px;
-height: 35px;
+    height: 35px;
     margin-top: -10px;
     padding: 0;
 
@@ -321,6 +321,7 @@ height: 35px;
     outline: none;
     background: transparent;
     background: #ffcc00;
+    color: #000;
 }
 
 .slick-slide{
@@ -339,10 +340,15 @@ height: 35px;
 .slick-next:before {
     content: '\25BA';
     font-size: 17px;
+    padding: 10px;
+    color: #000;
 }
 .slick-prev:before {
-    content: '\25BA';
-    font-size: 17px;
+    content: '\25C4';
+    font-size: 21px;
+    padding: 10px;
+    line-height: 0.6;
+    color: #000;
 }
 /* /SLICK */
 
