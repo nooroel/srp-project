@@ -288,8 +288,8 @@ ul li.dropdownitem{
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 35px;
+height: 35px;
     margin-top: -10px;
     padding: 0;
 
@@ -302,6 +302,29 @@ ul li.dropdownitem{
     background: transparent;
     background: #ffcc00;
 }
+
+.slick-slide{
+    text-align: center;
+}
+.slick-next {
+    right: 0px;
+}
+.slick-prev {
+    left: 0px;
+}
+.slick-slider {
+  margin: 4em 0 4.5em;
+}
+
+.slick-next:before {
+    content: '\25BA';
+    font-size: 17px;
+}
+.slick-prev:before {
+    content: '\25BA';
+    font-size: 17px;
+}
+/* /SLICK */
 
 /*
  * Remove text-shadow in selection highlight:
