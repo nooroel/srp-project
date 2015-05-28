@@ -330,13 +330,14 @@ ul li.selecteditem {
 }
 .slick-next {
     right: 0px;
+
 }
 .slick-prev {
     left: 0px;
 }
 .slick-slider {
   margin: 4em 0 4.5em;
-}
+/*  width: 500px;*/}
 
 .slick-next:before {
     content: '\25BA';
@@ -350,6 +351,9 @@ ul li.selecteditem {
     padding: 10px;
     line-height: 0.6;
     color: #000;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+    background-color: #ffeea8;
 }
 /* /SLICK */
 
