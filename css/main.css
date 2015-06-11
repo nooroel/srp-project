@@ -182,6 +182,8 @@ ul li.selecteditem {
   padding-right:100px;
 }
 
+p.bron{font-size: 0.5em;}
+
 .submenu{
     float: left;
     width: 100%;
