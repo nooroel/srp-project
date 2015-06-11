@@ -208,7 +208,7 @@ p.bron{font-size: 0.5em;}
 	        background: url('../img/bulletclosed.png') no-repeat left top;
         }
         
-        .submenu ul li a{
+        .submenu a{
 	        text-decoration: none;
 	        color: black;
             padding-left: 40px;
@@ -224,6 +224,15 @@ p.bron{font-size: 0.5em;}
 
 }
 
+.menulineVD{
+	z-index: -1;
+	position: absolute;
+	border-left: 1px solid #ff9959;
+	height: 260px;
+	width: 10px;
+	margin-left: 11px;
+
+}
 
 .content{
     float: left;
@@ -537,7 +546,13 @@ textarea {
 .clearfix:after {
     clear: both;
 }
+.question{
+	font-weight: bold;
+}
 
+.answer::before, .answer::after{
+	content: "''"
+}
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
