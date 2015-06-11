@@ -25,7 +25,12 @@
             <img src="../../img/logo.png" alt="Hogeschool van Amsterdam" class="logo"/>
         </header>
         <div class="title">
-            <h1><img class="cmimg" src="../../img/iconContentManager.png"/>Content Manager</h1>
+            <ul id="dropdownmn">
+                <li class="selecteditem">Frontend developer</li>
+                <li class="dropdownitem"><a href="../cm/ai.html">Content manager</a></li>
+                <li class="dropdownitem"><a href="../id/ai.html">Interaction designer</a></li>
+                <li class="dropdownitem"><a href="../vd/ai.html">Visual designer</a></li>
+            </ul>
         </div>
         <div class="submenu clearfix">
 			<div class="menuline"></div>
@@ -56,6 +61,27 @@ Informatie architectuur is het herkennen, structureren en vindbaar maken van inf
      
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+              $('.one-time').slick({
+              dots: true,
+              infinite: true,
+              speed: 300,
+              slidesToShow: 1,
+              adaptiveHeight: true
+            });
+                });
+
+                $( ".selecteditem" ).click(function() {
+              $( ".dropdownitem" ).toggle( 0, function() {
+                // Animation complete.
+              });
+            });
+        </script>
       
     </body>
 </html>
